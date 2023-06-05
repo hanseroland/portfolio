@@ -1,0 +1,204 @@
+
+@font-face {
+    font-family: "Futurewave";
+    src: local("Futurewave"),
+     url("../fonts/Futurewave.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Press Star2P";
+    src: local("Press Star2P"),
+     url("../fonts/PressStart2P-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "StarJediRounded";
+    src: local("StarJediRounded-jW3R"),
+     url("../fonts/StarJediRounded-jW3R.ttf") format("truetype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "StarJediHollow";
+    src: local("StarJediHollow-A4lL"),
+     url("../fonts/StarJediHollow-A4lL.ttf") format("truetype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "StarJedi";
+    src: local("StarJedi-DGRW"),
+     url("../fonts/StarJedi-DGRW.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Hacked-KerX";
+    src: local("Hacked-KerX"),
+     url("../fonts/Hacked-KerX.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "ProgressPersonalUse";
+    src: local("ProgressPersonalUse-EaJdz"),
+     url("../fonts/ProgressPersonalUse-EaJdz.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "SpaceMission";
+    src: local("SpaceMission-rgyw9"),
+     url("../fonts/SpaceMission-rgyw9.otf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Stacker";
+    src: local("Stacker-jE03l"),
+     url("../fonts/Stacker-jE03l.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "PowerLord";
+    src: local("PowerLord-9D7y"),
+     url("../fonts/PowerLord-9D7y.otf") format("truetype");
+   
+}
+
+@font-face {
+    font-family: "PowerLord3D";
+    src: local("PowerLord3D-lyO5"),
+     url("../fonts/PowerLord3D-lyO5.otf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "PowerLordGradient";
+    src: local("PowerLordGradient-YZWa"),
+     url("../fonts/PowerLordGradient-YZWa.otf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Monoton";
+    src: local("Monoton-Regular"),
+     url("../fonts/Monoton-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Megrim";
+    src: local("Megrim-Regular"),
+     url("../fonts/Megrim-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: "PowerLordHalftone";
+    src: local("PowerLordHalftone-MPmw"),
+     url("../fonts/PowerLordHalftone-MPmw.otf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "SpaceRanger";
+    src: local("SpaceRanger-EMJl"),
+     url("../fonts/SpaceRanger-EMJl.otf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "SpaceRangerAcademy";
+    src: local("SpaceRangerAcademy-1WnM"),
+     url("../fonts/SpaceRangerAcademy-1WnM.otf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "BebasNeue-Regular";
+    src: local("BebasNeue-Regular"),
+     url("../fonts/BebasNeue-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+    
+.font-face-future {
+    font-family: "Futurewave";
+}
+
+.font-face-future {
+    font-family: "Press Star2P";
+}
+
+.clean-text {
+    animation: flicker 1.5s infinite alternate;
+    color: #fff;
+    color: rgb(0, 0, 0);
+    background: linear-gradiant(90deg,#fcfcfc,#4a4a4a);
+  }
+
+
+  
+.neonText {
+    color: #fff;
+    text-shadow:  0 0 7px rgba(255, 255, 255, 0.89),
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(0, 195, 255),
+        0 0 82px rgb(0, 195, 255),
+        0 0 92px rgb(0, 195, 255),
+        0 0 102px rgb(0, 195, 255),
+        0 0 151px rgb(0, 195, 255);
+  }
+
+
+  .klimb-text {
+    animation: flickerKlimb 2s infinite alternate;
+    color: #fff;
+}
+
+  @keyframes flickerKlimb {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 1px #fff,
+        0 0 1px #fff,
+        0 0 5px rgb(0, 247, 255),
+        0 0 10px rgb(0, 247, 255),
+        0 0 10px rgb(0, 247, 255),
+        0 0 50px rgb(0, 247, 255),
+        0 0 50px rgb(0, 247, 255)
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+}
+
+  /* Flickering animation */
+@keyframes flicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px rgb(0, 247, 255),
+        0 0 80px rgb(0, 247, 255),
+        0 0 90px rgb(0, 247, 255),
+        0 0 100px rgb(0, 247, 255),
+        0 0 150px rgb(0, 247, 255)
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+}

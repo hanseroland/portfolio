@@ -1,0 +1,22 @@
+
+@font-face {
+    font-family: "Futurewave";
+    src: local("Futurewave"),
+     url("../../fonts/Futurewave.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Press Star2P";
+    src: local("Press Star2P"),
+     url("../../fonts/PressStart2P-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+    
+.font-face-future {
+    font-family: "Futurewave";
+}
+
+.font-face-future {
+    font-family: "Press Star2P";
+}
