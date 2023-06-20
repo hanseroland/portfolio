@@ -72,7 +72,7 @@ const P = styled.p`
 
   color:white;
   font-size:12px;
-  font-family:PowerLord;
+ 
 
   @media screen and (max-width: 1138){
     font-size:10px;

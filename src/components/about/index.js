@@ -578,7 +578,7 @@ function About({textenter,textleave}) {
                              whileInView={{opacity:1,y:0}}
                              transition={{type:"easeIn", duration:0.9,delay:0.60 }}
                               > 
-                              <i>NPM</i>
+                              <i>THREE JS</i>
                               </Span>
                           </Grid>
                         
