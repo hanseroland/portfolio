@@ -19,8 +19,20 @@ import FOnqAgenda from "../../images/fonqAgenda.jpeg";
 
 export const data = [
     {
+        _id:14,
+        name:"Système Solaire en 3D",
+        image:SystemeSolaire,
+        technologies:[
+            {id:1,name:"React"},
+            {id:2,name:"Three.JS"},
+        ],
+        description:"Dans ce projet découvrez une simulation interactive du système solaire en 3D, que j’ai réalisé avec React et Three.js, une bibliothèque JavaScript populaire et puissante pour la création d'applications et de rendus 3D interactifs dans un navigateur web",
+        github:"https://github.com/hanseroland/systemeSolaire",
+        demo:"https://hanseroland.github.io/systemeSolaire/",
+    },
+    {
         _id:12,
-        name:"Fonq Médi+",
+        name:"CRM Fonq Médi+",
         image:Img12,
         description:"Application web Dévéloppée pour le compte du cabinet carrée. FONQ MEDI + est un CRM de gestion hospitalière. Il a pour but d'aider les structures hospitalières à manager leur structure en passant par la digitalisation des tâche quotidienne comme : La prise de rendevez-vous, la gestion de la pharmacie, la facturation.",
         technologies:[
@@ -37,7 +49,7 @@ export const data = [
     },
     {
         _id:15,
-        name:"Fonq Agenda",
+        name:"CRM Fonq Agenda",
         image:FOnqAgenda,
         description:"Application web Dévéloppée pour le compte du cabinet carrée. FONQ Agenda est un CRM pour gérer la relation client. Il a différentes fonctionnalités dont les plus importantes sont: la gestion des rendez-vous clients et le rappel des rendez-vous par mail et par SMS.",
         technologies:[
@@ -55,7 +67,7 @@ export const data = [
    
     {
         _id:3,
-        name:"Weather",
+        name:"Application Mobile de Météo",
         image:Img3,
         description:"Il s'agit d'une application  de Météo utilisant l'API de OpenWeatherMap pour afficher les données",
         technologies:[
@@ -67,7 +79,7 @@ export const data = [
     },
     {
         _id:4,
-        name:"Géopharm",
+        name:"Application mobile Géopharm",
         image:Img4,
         description:"Géopharm est une application mobile que j'ai développée pour mon projet de Licence en Génie Logiciel et Administration Réseau. "+
         "elle permet de geolocaliser la pharmacie de garde la plus proche qui possède le médicament recherché",
@@ -84,7 +96,7 @@ export const data = [
 
     {
         _id:11,
-        name:"Inscription Connexion",
+        name:"Application Mobile d'Inscription/Connexion",
         image:Img11,
         description:"Une simple application mobile de connexion et inscrition via Firebase",
         technologies:[
@@ -208,16 +220,5 @@ export const data = [
         github:"",
         demo:"https://www.pasteurclinique.sn"
     },
-    {
-        _id:14,
-        name:"Système Solaire en 3D",
-        image:SystemeSolaire,
-        technologies:[
-            {id:1,name:"React"},
-            {id:1,name:"Three.JS"},
-        ],
-        description:"Dans ce projet découvrez une simulation interactive du système solaire en 3D, que j’ai réalisé avec React et Three.js, une bibliothèque JavaScript populaire et puissante pour la création d'applications et de rendus 3D interactifs dans un navigateur web",
-        github:"https://github.com/hanseroland/systemeSolaire",
-        demo:"https://hanseroland.github.io/systemeSolaire/",
-    }
+  
 ]

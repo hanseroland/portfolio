@@ -24,6 +24,10 @@ const Content = styled.div`
   align-items:center;
   height:100vh;
   background: #232323;
+
+  @media screen and (max-width: 500px){
+    height:100%;
+  }
  
 `;
 

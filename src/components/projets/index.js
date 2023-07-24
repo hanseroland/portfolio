@@ -4,8 +4,6 @@ import styled from 'styled-components';
 import { data } from './data';
 import { motion } from 'framer-motion';
 import TextSpan from '../TextSpan';
-import ProjectCard from '../cards/ProjectCard';
-import NewProjectCard from '../cards/NewProjectCard';
 import ComplexGrid from '../cards/NewProjectCard';
 
 
@@ -15,6 +13,10 @@ const Content = styled.div`
   align-items:center;
   min-height:100vh;
   background: #232323;
+
+  @media screen and (max-width: 500px){
+    height:100%;
+  }
 `;
 
 
@@ -47,7 +49,7 @@ function Projets({textenter,textleave}) {
 
           <Grid container spacing={1} >
     
-            <Grid item lg={4} xs={12} display="flex" alignItems="center" >
+            <Grid item lg={4} xs={12} display="flex" alignItems="center" justifyContent="center">
                  <Box marginBottom={5}  display="flex" justifyContent="center">
                   {
                     title.map((letter,index)=>{
@@ -86,19 +88,20 @@ function Projets({textenter,textleave}) {
               
               }}
               >
-                {
-                      data.map((item)=>(
+                  {
+                      data.map((item,index)=>(
                         <Grid 
                           justifyContent="center" 
                           display="flex"
-                            key={item._id} 
+                            key={item?.name} 
+                            item
                             lg={12} 
                             md={12} 
                             sm={12} 
                             xs={12}
                             padding={1}
                         >
-                          <ComplexGrid
+                          <ComplexGrid 
                             item={item}
                             textenter={textenter} 
                             textleave={textleave}

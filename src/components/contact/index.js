@@ -161,7 +161,7 @@ function Contact({textenter,textleave}) {
                               whileInView={{opacity:1,y:0}}
                               transition={{type:"easeIn", duration:0.9,delay:0.15 }}
                             >
-                                <a target="_blank" rel="noopener noreferrer" href="https://sn.linkedin.com/in/hanse-roland-parfait-nguema-ntougou-16a907220?trk=public_profile_browsemap" >
+                                <a target="_blank" rel="noopener noreferrer" href="https://sn.linkedin.com/in/hanse-r-p-nguema-ntougou-16a907220?trk=public_profile_browsemap" >
                                   <ContentBox onMouseEnter={textenter} onMouseLeave={textleave}>
                                    
                                     <span>

@@ -75,7 +75,7 @@ export default function ComplexGrid({item,textenter,textleave,}) {
                 
                
               </Typography>
-              <Typography onMouseEnter={textenter} onMouseLeave={textleave} sx={{color:'#fff'}} variant="body2" gutterBottom>
+              <Typography align="justify" onMouseEnter={textenter} onMouseLeave={textleave} sx={{color:'#fff'}} variant="body2" gutterBottom>
                 {item.description}
               </Typography>
              

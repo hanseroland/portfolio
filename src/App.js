@@ -89,8 +89,9 @@ function App() {
        />
        <About  textenter={textEnter} textleave={textLeave} />
        <Projets  textenter={textEnter} textleave={textLeave} />
+       
        <Contact  textenter={textEnter} textleave={textLeave} />
-       <Footer textenter={textEnter} textleave={textLeave}/>
+  <Footer textenter={textEnter} textleave={textLeave}/>
     </>
   );
 }
